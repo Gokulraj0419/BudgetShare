@@ -6,7 +6,10 @@
   "scripts": {
     "mobile": "pnpm --filter mobile start",
     "mobile:android": "pnpm --filter mobile android",
-    "mobile:ios": "pnpm --filter mobile ios"
+    "mobile:ios": "pnpm --filter mobile ios",
+    "web": "pnpm --filter web dev",
+    "web:build": "pnpm --filter web build",
+    "web:preview": "pnpm --filter web preview"
   },
   "keywords": [],
   "author": "",
