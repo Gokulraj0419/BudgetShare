@@ -19,5 +19,8 @@
     }
   },
   "type": "module",
-  "packageManager": "pnpm@10.24.0"
+  "packageManager": "pnpm@10.24.0",
+  "overrides": {
+    "lightningcss": "1.30.1"
+  }
 }
