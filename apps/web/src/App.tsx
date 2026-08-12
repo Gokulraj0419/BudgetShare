@@ -4,6 +4,7 @@ import { AppRouter } from './router/AppRouter';
 import { theme } from './theme';
 import { BudgetShareProvider } from './context/BudgetShareContext';
 
+
 function App() {
   return (
     <ThemeProvider theme={theme}>
