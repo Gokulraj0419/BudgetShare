@@ -11,8 +11,22 @@
   },
   "dependencies": {
     "@budgetshare/shared": "workspace:*",
+    "@budgetshare/types": "workspace:*",
+    "@budgetshare/validation": "workspace:*",
+    "@budgetshare/store": "workspace:*",
+    "@budgetshare/utils": "workspace:*",
+    "@budgetshare/storage": "workspace:*",
+    "zustand": "^5.0.3",
+    "@hookform/resolvers": "^3.10.0",
+    "zod": "^3.24.2",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.3.1",
+    "@mui/material": "^9.3.1",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "react-hook-form": "^7.85.0",
+    "react-router-dom": "^7.18.2"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
